@@ -15,7 +15,7 @@ class DashboardBloc extends Bloc<DashboardEvent, DashboardState> {
     on<DashboardDataRequested>((event, emit) async {
       emit(DashboardLoadInProgress());
       try {
-        timer = _makePeriodicCall(const Duration(seconds: 60), (Timer timer) {
+        timer = _makePeriodicCall(const Duration(seconds: 5), (Timer timer) {
           add(DashboardStreamDataRequested());
         }, fireNow: true);
       } catch (e) {
