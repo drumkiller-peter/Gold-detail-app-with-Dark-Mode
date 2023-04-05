@@ -1,0 +1,52 @@
+name: remote_coach
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_bloc: ^8.1.2
+  equatable: ^2.0.5
+  freezed_annotation: ^2.2.0
+  json_annotation: ^4.8.0
+  intl: ^0.17.0
+  dio: ^5.1.1
+  dartz: ^0.10.1
+  shared_preferences: ^2.1.0
+  get_it: ^7.2.0
+  form_builder_validators: ^8.5.0
+  pull_to_refresh: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+  build_runner: ^2.3.3
+  flutter_gen_runner:
+  freezed: ^2.1.0+1
+  json_serializable: ^6.3.2
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
