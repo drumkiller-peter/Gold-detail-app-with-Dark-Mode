@@ -1,4 +1,4 @@
-# remote_coach
+# Gold Detail App using BLOC pattern
 
 A Flutter Project for viewing Gold Price Detail.
 
